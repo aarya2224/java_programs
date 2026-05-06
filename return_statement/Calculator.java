@@ -6,9 +6,11 @@ public class Calculator {
 	}
 	
 	int average(int n1,int n2,int n3) {
-		int res = addition(n1,n2,n3);
+		Calculator c1 = new Calculator();
+		int res = c1.addition(n1,n2,n3);
 		int avg = res / 3;
 		return avg;
 	}
 
 }
+
